@@ -5,7 +5,7 @@ services:
 
 env:
   global:
-  - VLC_ANDROID_VERSION="3.4.3-stremio-cast-app-id"
+  - VLC_ANDROID_VERSION="stremio-3-5-3"
   - ARCHITECTURE=`echo "$TRAVIS_TAG" | sed -rn 's/^[^-]*-(.*)$/\1/p'`
   - DOCKER_CONTAINER_NAME="stremio/vlc-android-sdk"
 
